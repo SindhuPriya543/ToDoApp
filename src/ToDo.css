@@ -1,0 +1,33 @@
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.submitButton{
+    margin-left: 20px;
+    background-color :#4169E1;
+    border-radius: 6px;
+    color:white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tasktextbox{
+    padding: 10px 25px;
+}
+
+.tasktextbox::placeholder{
+   font-size: 16px;
+}
+
+.taskList{
+    margin-top: 5px;
+    display: flex;
+    align-items: left;
+}
